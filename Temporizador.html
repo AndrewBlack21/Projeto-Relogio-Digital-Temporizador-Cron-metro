@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Relogio Dinamico</title>
+</head>
+<body>
+
+    
+    <header id="topo">
+        <nav>
+            <ul>
+                <li><a href="Relogio.html">Relogio</a></li>
+                <li><a href="Temporizador.html">Temporizador</a></li>
+                <li><a href="Cronometro.html">Cronometro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="timelapse">
+        
+    <div id="timer">00:00</div>
+    
+    <label for="horas">Horas</label>
+    <input type="number" id="horas" min="0" value="0" placeholder="horas">
+
+    <label for="minutos">Minutos</label>
+    <input type="number" id="minutos" min="0" max="59" value="0" placeholder="minutos">
+
+    <label for="segundos">Segundos</label>
+    <input type="number" id="segundos" min="0" max="59" value="0" placeholder="segundos">
+
+    <button id="startButton" onclick="starTimer()">Iniciar</button>
+    <button id="stopButton" onclick="stopTimer()">Parar</button>
+    <button id="resetButton" onclick="resetTimer()">Reiniciar</button>
+
+    </div>
+
+
+
+    <script src="temporizador.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Relogio Dinamico</title>
+</head>
+<body>
+
+    <header id="topo">
+        <nav>
+            <ul>
+                <li><a href="Relogio.html">Relogio</a></li>
+                <li><a href="Temporizador.html">Temporizador</a></li>
+                <li><a href="Cronometro.html">Cronometro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<div class="relogio-container">
+    
+    <div class="relogio"> 
+        <div>
+            <span id="horas">00</span>
+            <span class="tempo">Horas</span>
+        </div>
+
+        <div>
+            <span id="minutos">00</span>
+            <span class="tempo">Minutos</span>
+        </div>
+
+        <div>
+            <span id="segundos">00</span>
+            <span class="tempo">segundos</span>
+        </div>
+        
+    </div>
+
+    <div class="relogio-global">
+        <div class="EUA">
+            <span id="ny-time">00:00:00</span>
+            <span class="tempo">Nova York, EUA</span>
+        </div>
+
+        <div class="london">
+            <span id="london-time">00:00:00</span>
+            <span class="tempo">Londres, Reino Unido</span>
+        </div>
+
+        <div class="tokyo">
+            <span id="tokyo-time">00:00:00</span>
+            <span class="tempo">Toquio, japao</span>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="relogio.js"></script>
+</body>
+</html>
