@@ -1,0 +1,31 @@
+@media screen and (max-width: 760px) {
+    .relogio, .relogio-global {
+        flex-direction: row;
+        flex-wrap: wrap; /* Para ajustar os blocos */
+    }
+
+    .relogio div, .relogio-global div {
+        width: 45%; /* Reduz o tamanho dos blocos */
+        margin-bottom: 10px; /* Espaçamento entre os blocos */
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+}
+
+/* Responsividade: Ajustes para telas menores que 400px */
+@media screen and (max-width: 400px) {
+    .relogio div, .relogio-global div {
+        width: 100%; /* Para telas muito pequenas, os blocos ocupam toda a largura */
+        margin-bottom: 10px;
+    }
+
+    .relogio span, .relogio-global span {
+        font-size: 18px; /* Reduz o tamanho da fonte */
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+}
